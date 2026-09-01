@@ -17,7 +17,6 @@ ENV/
 .venv
 
 # Data files
-*.csv
 *.xlsx
 *.parquet
 
