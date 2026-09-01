@@ -18,3 +18,4 @@ prefect==2.12.0
 black==23.7.0
 flake8==6.1.0
 pylint==2.17.5
+plotly==5.17.0
