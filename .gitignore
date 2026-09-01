@@ -17,9 +17,6 @@ ENV/
 .venv
 
 # Data files
-data/raw/
-data/processed/
-data/external/
 *.csv
 *.xlsx
 *.parquet
