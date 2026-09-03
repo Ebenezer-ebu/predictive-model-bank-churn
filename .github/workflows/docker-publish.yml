@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: docker/Dockerfile.streamlit
+          file: Dockerfile.streamlit
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/churn-dashboard-streamlit:latest
@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: docker/Dockerfile.fastapi
+          file: Dockerfile.fastapi
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/churn-dashboard-fastapi:latest
